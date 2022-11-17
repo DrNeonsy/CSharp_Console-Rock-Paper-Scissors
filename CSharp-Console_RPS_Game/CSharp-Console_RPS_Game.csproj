@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<RootNamespace>CSharp_Console_RPS_Game</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PublishTrimmed>true</PublishTrimmed>
+		<ApplicationIcon>app.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Include="app.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.Windows.Extensions" Version="6.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="AppResource.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>AppResource.resx</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Update="AppResource.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>AppResource.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "4Gwz8nduvcFQ3NjFr49lqYBnzRPVyjSx9qbsC97ChUuWFCSeqMyuoE7avhpWCR6NBKE/blBqWb050mQWK4eE3g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ferrerti\\Documents\\DodoNet Projects\\csharp-console_rps_game\\CSharp-Console_RPS_Game\\CSharp-Console_RPS_Game.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ferrerti\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\ferrerti\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\ferrerti\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

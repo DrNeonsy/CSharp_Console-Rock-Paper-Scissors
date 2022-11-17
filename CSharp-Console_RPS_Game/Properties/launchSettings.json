@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "CSharp-Console_RPS_Game": {
+      "commandName": "Project"
+    }
+  }
+}
